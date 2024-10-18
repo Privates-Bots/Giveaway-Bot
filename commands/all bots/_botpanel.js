@@ -69,7 +69,7 @@ for (var i = start; i < end; i++) {
   // Create the button with numbered label (like «1», «2», etc.)
   currentRow.push({
     text: `« ${index} »`, // Button label is the number
-    callback_data: `selectBot | ${botName} | ${botId}` // Pass botName and botId in callback
+    callback_data: `selectBot|${botName}|${botId}` // Pass botName and botId in callback
   })
 
   // Add row when 5 buttons are created, then reset the row

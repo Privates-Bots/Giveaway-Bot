@@ -32,7 +32,7 @@ if (!botName || !botId) {
   Bot.sendMessage("Error selecting bot. Please try again.")
   return
 }
-
+Bot.sendMessage(botName + "\n\n" + botId)
 // Send bot to the user account
 BBAdmin.installBot({
   email: mail,
